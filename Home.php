@@ -47,7 +47,10 @@ $con = connection();
             </div>
         </div>
     </nav>
-    <main>Hello, Gabriel!</main>
+    <main>
+        <h5>Hello, Gabriel!</h5>
+        <h1>Test Commit</h1>
+    </main>
 
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
