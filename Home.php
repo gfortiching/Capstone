@@ -36,6 +36,15 @@ $con = connection();
                     <li class="nav-item">
                         <a class="nav-link" href="#">Home</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
                 </ul>
                 <span>
                     <ul class="navbar-nav me-auto mb-2 mb-xl-0">
