@@ -31,7 +31,7 @@ $con = connection();
         if (isset($_SESSION["UserLogin"])) {
             echo "Welcome to our Home Page!";
         } else {
-            echo "Welcome Guest";
+            echo "Welcome, Guest!";
         } ?>
         </h1>
     </main>
@@ -69,7 +69,7 @@ $con = connection();
                             if (isset($_SESSION["UserLogin"])) {
                                 echo "Hello, " . $_SESSION['UserLogin'] . "!";
                             } else {
-                                echo "Welcome Guest";
+                                echo "Welcome, Guest!";
                             } ?>
                             </b></span>
                         <?php if (isset($_SESSION['UserLogin'])) { ?>

@@ -33,7 +33,7 @@ $con = connection();
 
                 <ul class="navbar-nav">
                     <li class="nav-item me-0 me-lg-5">
-                        <a href="#">Waves</a>
+                        <a href="index.php">Waves</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="index.php">Home</a>
@@ -56,7 +56,7 @@ $con = connection();
                             if (isset($_SESSION["UserLogin"])) {
                                 echo "Hello, " . $_SESSION['UserLogin'] . "!";
                             } else {
-                                echo "Welcome Guest";
+                                echo "Welcome, Guest!";
                             } ?>
                             </b></span>
                         <?php if (isset($_SESSION['UserLogin'])) { ?>

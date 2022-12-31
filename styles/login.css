@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    min-height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+    padding: 5%;
+}
+
+.login {
+    height: 70vh;
+    min-width: 300px;
+    max-width: 40%;
+    margin: auto;
+    padding: 5%;
+    background-color: rgb(181, 203, 238);
+    border-radius: 2em;
+}
+
+.login h1 {
+    text-align: center;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    border: 0;
+    margin: 5% auto;
+}
+
+label {
+    font-size: 1.5em;
+}
+
+input, button {
+    margin: 2% auto;
+    width: 100%;
+    height: 5vh;
+}
+
+button {
+    max-width: 100px;
+    border-radius: 1em;
+    border: 0;
+    cursor: pointer;
+}

@@ -43,7 +43,7 @@ if (isset($_POST['login'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Waves</title>
     <link rel="stylesheet" href="styles/nav.css">
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/login.css">
 </head>
 
 <body>

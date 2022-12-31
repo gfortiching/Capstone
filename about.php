@@ -57,7 +57,7 @@ $con = connection();
                             if (isset($_SESSION["UserLogin"])) {
                                 echo "Hello, " . $_SESSION['UserLogin'] . "!";
                             } else {
-                                echo "Welcome Guest";
+                                echo "Welcome, Guest!";
                             } ?>
                             </b></span>
                         <?php if (isset($_SESSION['UserLogin'])) { ?>

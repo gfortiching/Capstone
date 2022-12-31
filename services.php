@@ -56,7 +56,7 @@ $con = connection();
                             if (isset($_SESSION["UserLogin"])) {
                                 echo "Hello, " . $_SESSION['UserLogin'] . "!";
                             } else {
-                                echo "Welcome Guest";
+                                echo "Welcome, Guest!";
                             } ?>
                             </b></span>
                         <?php if (isset($_SESSION['UserLogin'])) { ?>
@@ -70,6 +70,9 @@ $con = connection();
             </div>
         </div>
     </nav>
+    <main class="main landing">
+        <h1>This is our Services page.</h1>
+    </main>
 
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
