@@ -42,18 +42,23 @@ if (isset($_POST['login'])) {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Waves</title>
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="styles/nav.css">
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 
 <body>
-    <form class="loginForm" action="" method="post">
-        <h1>Login</h1>
-        <label>Username</label>
-        <input type="text" name="username" id="username">
-        <label>Password</label>
-        <input type="text" name="password" id="password">
-        <button type="submit" name="login">Login</button>
-    </form>
+    <main class="main">
+        <form class="login" action="" method="post">
+            <h1>Login</h1>
+            <fieldset>
+                <label>Username</label>
+                <input type="text" name="username" id="username">
+                <label>Password</label>
+                <input type="text" name="password" id="password">
+                <button type="submit" name="login">Login</button>
+            </fieldset>
+        </form>
+    </main>
 </body>
 
 </html>

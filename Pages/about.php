@@ -1,10 +1,3 @@
-<?php
-
-include_once("Connection/Connection.php");
-$con = connection();
-
-?>
-
 <!DOCTYPE html>
 <html>
 
@@ -16,7 +9,6 @@ $con = connection();
     <link rel="stylesheet" href="styles/nav.css">
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="styles/landing.css">
-
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
@@ -40,16 +32,16 @@ $con = connection();
                         <a class="nav-link" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/services.php">Services</a>
+                        <a class="nav-link" href="#">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/about.php">About Us</a>
+                        <a class="nav-link" href="#">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/contact.php">Contact</a>
+                        <a class="nav-link" href="#">Contact</a>
                     </li>
                     <li class="nav-item ms-lg-auto">
-                        <a class="nav-link" href="logout.php">Logout</a>
+                        <a class="nav-link" href="Login.php">Login</a>
                     </li>
                 </ul>
                 </span>
@@ -57,13 +49,13 @@ $con = connection();
         </div>
     </nav>
     <main class="main landing">
-        <h1 class="text-center">This is our landing page.</h1>
+        <h1>This is our About page.</h1>
     </main>
 
     <!-- JavaScript Bundle with Popper -->
-    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
-        </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/b8b5c0695c.js" crossorigin="anonymous"></script>
 </body>
 
