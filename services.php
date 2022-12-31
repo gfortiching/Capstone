@@ -1,3 +1,10 @@
+<?php
+
+include_once("Connection/Connection.php");
+$con = connection();
+
+?>
+
 <!DOCTYPE html>
 <html>
 
@@ -29,28 +36,40 @@
                         <a href="#">Waves</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
+                        <a class="nav-link" href="index.php">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
+                        <a class="nav-link" href="services.php">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About Us</a>
+                        <a class="nav-link" href="about.php">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="contact.php">Contact</a>
                     </li>
                     <li class="nav-item ms-lg-auto">
-                        <a class="nav-link" href="Login.php">Login</a>
+                        <span class="me-5"><b>
+                                <?php if (!isset($_SESSION)) {
+                                session_start();
+                            }
+
+                            if (isset($_SESSION["UserLogin"])) {
+                                echo "Hello, " . $_SESSION['UserLogin'] . "!";
+                            } else {
+                                echo "Welcome Guest";
+                            } ?>
+                            </b></span>
+                        <?php if (isset($_SESSION['UserLogin'])) { ?>
+                            <a href=" logout.php">Logout</a>
+                            <?php } else { ?>
+                            <a href="login.php">Login</a>
+                            <?php } ?>
                     </li>
                 </ul>
                 </span>
             </div>
         </div>
     </nav>
-    <main class="main landing">
-        <h1>This is our Services page.</h1>
-    </main>
 
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"

@@ -22,6 +22,19 @@ $con = connection();
 </head>
 
 <body>
+    <main class="main landing">
+        <h1>
+            <?php if (!isset($_SESSION)) {
+            session_start();
+        }
+
+        if (isset($_SESSION["UserLogin"])) {
+            echo "Welcome to our Home Page!";
+        } else {
+            echo "Welcome Guest";
+        } ?>
+        </h1>
+    </main>
     <nav class="navbar navbar-expand-lg p-0">
         <div class="navigation">
             <button class="navbar-toggler border-0 p-0" type="button" data-bs-toggle="collapse"
@@ -36,7 +49,7 @@ $con = connection();
                         <a href="#">Waves</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
+                        <a class="nav-link" href="index.php">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="services.php">Services</a>
@@ -48,14 +61,29 @@ $con = connection();
                         <a class="nav-link" href="contact.php">Contact</a>
                     </li>
                     <li class="nav-item ms-lg-auto">
-                        <a class="nav-link" href="login.php">Login</a>
+                        <span class="me-5"><b>
+                                <?php if (!isset($_SESSION)) {
+                                session_start();
+                            }
+
+                            if (isset($_SESSION["UserLogin"])) {
+                                echo "Hello, " . $_SESSION['UserLogin'] . "!";
+                            } else {
+                                echo "Welcome Guest";
+                            } ?>
+                            </b></span>
+                        <?php if (isset($_SESSION['UserLogin'])) { ?>
+                            <a href=" logout.php">Logout</a>
+                            <?php } else { ?>
+                            <a href="login.php">Login</a>
+                            <?php } ?>
                     </li>
                 </ul>
                 </span>
             </div>
         </div>
     </nav>
-    <main class="main landing"></main>
+
 
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"

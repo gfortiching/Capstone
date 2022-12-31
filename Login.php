@@ -25,7 +25,7 @@ if (isset($_POST['login'])) {
         $_SESSION["Access"] = $row["Access"];
 
         // echo $_SESSION["UserLogin"];
-        echo header("Location: Home.php");
+        echo header("Location: index.php");
     } else {
         echo "Please login to continue.";
     }
