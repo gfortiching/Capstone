@@ -13,28 +13,13 @@ $con = connection();
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Waves</title>
-    <link rel="stylesheet" href="styles/nav.css">
-    <link rel="stylesheet" href="styles/styles.css">
-    <link rel="stylesheet" href="styles/landing.css">
+    <link rel="stylesheet" href="styles.css">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 </head>
 
 <body>
-    <main class="main landing">
-        <h1>
-            <?php if (!isset($_SESSION)) {
-            session_start();
-        }
-
-        if (isset($_SESSION["UserLogin"])) {
-            echo "Welcome to our Home Page!";
-        } else {
-            echo "Welcome, Guest!";
-        } ?>
-        </h1>
-    </main>
     <nav class="navbar navbar-expand-lg p-0">
         <div class="navigation">
             <button class="navbar-toggler border-0 p-0" type="button" data-bs-toggle="collapse"
@@ -46,36 +31,39 @@ $con = connection();
 
                 <ul class="navbar-nav">
                     <li class="nav-item me-0 me-lg-5">
-                        <a href="#">Waves</a>
+                        <a class="hover" href="#">Waves</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.php">Home</a>
+                        <a class="hover" href="index.php">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="services.php">Services</a>
+                        <a class="hover" href="services.php">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.php">About Us</a>
+                        <a class="hover" href="about.php">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.php">Contact</a>
+                        <a class="hover" href="contact.php">Contact</a>
                     </li>
-                    <li class="nav-item ms-lg-auto">
-                        <span class="me-5"><b>
-                                <?php if (!isset($_SESSION)) {
-                                session_start();
-                            }
+                    <li class="nav-item ms-lg-auto me-5 d-none d-lg-inline">
+                        <b>
+                            <?php if (!isset($_SESSION)) {
+                            session_start();
+                        }
 
-                            if (isset($_SESSION["UserLogin"])) {
-                                echo "Hello, " . $_SESSION['UserLogin'] . "!";
-                            } else {
-                                echo "Welcome, Guest!";
-                            } ?>
-                            </b></span>
+                        if (isset($_SESSION["UserLogin"])) {
+                            echo "Hello, " . $_SESSION['UserLogin'] . "!";
+                        } else {
+                            echo "Welcome, Guest!";
+                        } ?>
+                        </b>
+                    </li>
+
+                    <li class="nav-item ms-lg-0 log">
                         <?php if (isset($_SESSION['UserLogin'])) { ?>
-                            <a href=" logout.php">Logout</a>
+                            <a class="hover" href=" logout.php">Logout</a>
                             <?php } else { ?>
-                            <a href="login.php">Login</a>
+                            <a class="hover" href="login.php">Login</a>
                             <?php } ?>
                     </li>
                 </ul>
@@ -83,6 +71,14 @@ $con = connection();
             </div>
         </div>
     </nav>
+    <main class="main landing">
+        <section class="landing-index">
+            <h1>Landing Page</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nobis blanditiis ab, doloribus ullam vero
+                fugit consectetur itaque est et eos laborum debitis ad earum reprehenderit asperiores tempore quaerat
+                in.</p>
+        </section>
+    </main>
 
 
     <!-- JavaScript Bundle with Popper -->

@@ -1,0 +1,70 @@
+nav.navbar {
+    margin: 0;
+    position: relative;
+    
+}
+
+.navigation {
+    min-height: 10vh;
+    width: 100%;
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+    padding: 2% 5%;
+    background-color: rgb(23, 12, 54);
+}
+
+nav ul {
+    height: inherit;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+nav a {
+    text-decoration: none;
+    padding: 0;
+    color: white;
+}
+
+nav li {
+    list-style: none;
+    padding: 0 1em;
+    color: white;
+}
+
+.hover {
+    display: inline-block;
+    position: relative;
+    color:#ffffff;
+}
+
+.hover:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #ffffff;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+  
+.hover:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.navigation button {
+    border: 0;
+    background-color: inherit;
+    width: 5%;
+}
+
+.navigation i {
+    padding: 0%;
+}
