@@ -22,7 +22,7 @@ $con = connection();
 <body>
     <nav class="navbar navbar-expand-lg p-0">
         <div class="navigation">
-            <button class="navbar-toggler border-0 p-0" type="button" data-bs-toggle="collapse"
+            <button class="navbar-toggler text-white border-0 p-0" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarBasic" aria-controls="navbarBasic" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <i class="fa-solid fa-bars"></i>
@@ -31,10 +31,10 @@ $con = connection();
 
                 <ul class="navbar-nav">
                     <li class="nav-item me-0 me-lg-5">
-                        <a class="hover" href="#">Waves</a>
+                        <a class="hover" href="index.php">Waves</a>
                     </li>
                     <li class="nav-item">
-                        <a class="hover" href="index.php">Home</a>
+                        <a class="hover" href="dashboard.php">Dashboard</a>
                     </li>
                     <li class="nav-item">
                         <a class="hover" href="services.php">Services</a>
@@ -48,23 +48,23 @@ $con = connection();
                     <li class="nav-item ms-lg-auto me-5 d-none d-lg-inline">
                         <b>
                             <?php if (!isset($_SESSION)) {
-                            session_start();
-                        }
+                                session_start();
+                            }
 
-                        if (isset($_SESSION["UserLogin"])) {
-                            echo "Hello, " . $_SESSION['UserLogin'] . "!";
-                        } else {
-                            echo "Welcome, Guest!";
-                        } ?>
+                            if (isset($_SESSION["UserLogin"])) {
+                                echo "Hello, " . $_SESSION['UserLogin'] . "!";
+                            } else {
+                                echo "Welcome, Guest!";
+                            } ?>
                         </b>
                     </li>
 
                     <li class="nav-item ms-lg-0 log">
                         <?php if (isset($_SESSION['UserLogin'])) { ?>
                             <a class="hover" href=" logout.php">Logout</a>
-                            <?php } else { ?>
+                        <?php } else { ?>
                             <a class="hover" href="login.php">Login</a>
-                            <?php } ?>
+                        <?php } ?>
                     </li>
                 </ul>
                 </span>

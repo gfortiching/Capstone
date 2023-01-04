@@ -1,9 +1,3 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
 .main {
     min-height: 100vh;
     width: 100%;
@@ -12,12 +6,12 @@
 }
 
 .login {
-    height: 70vh;
+    height: 60vh;
     min-width: 300px;
     max-width: 40%;
-    margin: auto;
+    margin: 5% auto 5%;
     padding: 5%;
-    background-color: rgb(181, 203, 238);
+    background-color: #ffffff;
     border-radius: 2em;
 }
 
@@ -25,24 +19,24 @@
     text-align: center;
 }
 
-fieldset {
+.login fieldset {
     display: flex;
     flex-direction: column;
     border: 0;
     margin: 5% auto;
 }
 
-label {
-    font-size: 1.5em;
+.login label {
+    font-size: 18px;
 }
 
-input, button {
+.login input, .login button {
     margin: 2% auto;
     width: 100%;
     height: 5vh;
 }
 
-button {
+.login button {
     max-width: 100px;
     border-radius: 1em;
     border: 0;

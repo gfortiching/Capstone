@@ -1,16 +1,16 @@
 nav.navbar {
     margin: 0;
     position: relative;
-    
+
 }
 
 .navigation {
-    min-height: 10vh;
+    height: auto;
     width: 100%;
     margin: 0 auto;
     position: fixed;
     top: 0;
-    padding: 2% 5%;
+    padding: 1.5% 2em;
     background-color: rgb(23, 12, 54);
 }
 
@@ -20,25 +20,25 @@ nav ul {
     display: flex;
     align-items: center;
     margin: 0 auto;
-
-}
-
-nav a {
-    text-decoration: none;
-    padding: 0;
-    color: white;
 }
 
 nav li {
     list-style: none;
     padding: 0 1em;
-    color: white;
+    color:#ffffff;
+
 }
 
 .hover {
     display: inline-block;
     position: relative;
     color:#ffffff;
+    text-decoration: none;
+    padding: 0;
+}
+
+.hover:hover {
+    color: rgb(168, 210, 244);
 }
 
 .hover:after {
@@ -49,7 +49,7 @@ nav li {
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #ffffff;
+    background-color: rgb(168, 210, 244);
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
 }
@@ -66,5 +66,5 @@ nav li {
 }
 
 .navigation i {
-    padding: 0%;
+    padding: 0;
 }
