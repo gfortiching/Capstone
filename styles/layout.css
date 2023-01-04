@@ -8,17 +8,17 @@
     width: 100%;
     margin: 0 auto;
     padding: 5%;
-    background-image: url('../Images/toda1.jpg'); 
-    background-repeat: repeat; 
-    background-attachment: scroll;
+    background: url('../Images/toda1.jpg') repeat fixed 100%; 
+    background-size: 100%;
+    height: auto;
 }
 
 .landing-index {
     height: 75vh;
     padding: 5%;
     margin-top: 8vh;
+    background-color: rgba(255, 255, 255, 0.275);
     border-radius: 1em;
-    background-color: rgba(255, 255, 255, 0.258);
     color: white;
     margin-top: 3%;
     border-radius: 1em;
@@ -28,13 +28,17 @@
     height: 75vh;
     padding: 5%;
     margin-top: 3%;
+    border-radius: 1em;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.275);
 }
 
 .landing-services {
     height: 75vh;
     padding: 5%;
     margin-top: 3%;
-    background-color: white;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.275);
     border-radius: 1em;
 }
 
@@ -42,7 +46,8 @@
     height: 75vh;
     padding: 5%;
     margin-top: 3%;
-    background-color: white;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.275);
     border-radius: 1em;
 }
 
@@ -50,11 +55,11 @@
     height: 75vh;
     padding: 5%;
     margin-top: 3%;
-    background-color: white;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.275);
     border-radius: 1em;
 }
 
-.landing-background {
+.landing {
     height: 100vh;
-    border-radius: 1em;
 }

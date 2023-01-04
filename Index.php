@@ -73,7 +73,7 @@ $con = connection();
         </div>
     </nav>
     <main class="main">
-        <section class="landing-background">
+        <section class="landing">
             <article class="landing-index">
                 <h1>Landing Page</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nobis blanditiis ab, doloribus ullam
@@ -85,7 +85,7 @@ $con = connection();
         </section>
         <section class="landing">
             <article class="landing-index">
-                <h1>Landing Page</h1>
+                <h1>Landing Page (Others)</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nobis blanditiis ab, doloribus ullam
                     vero
                     fugit consectetur itaque est et eos laborum debitis ad earum reprehenderit asperiores tempore
