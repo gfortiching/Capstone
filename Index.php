@@ -71,7 +71,7 @@ $con = connection();
             </div>
         </div>
     </nav>
-    <main class="main landing">
+    <main class="main landing" class="image">
         <section class="landing-index">
             <h1>Landing Page</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nobis blanditiis ab, doloribus ullam vero

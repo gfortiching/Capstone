@@ -15,9 +15,9 @@
     height: 75vh;
     padding: 5%;
     margin-top: 8vh;
-    background-color: white;
+    background-color: rgba(23, 12, 54, 0.532);
     border-radius: 1em;
-
+    color: white;
 }
 
 .landing-services {
@@ -48,4 +48,7 @@
 .landing {
     margin-top: 5%;
     background-color: rgb(199, 225, 255);
+    background-image: url('../Images/toda1.jpg'); 
+    background-repeat: repeat; 
+    background-attachment: scroll; 
 }
