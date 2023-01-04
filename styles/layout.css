@@ -5,7 +5,7 @@
 }
 
 .main {
-    min-height: 100vh;
+    height: 200vh;
     width: 100%;
     margin: 0 auto;
     padding: 5%;
@@ -14,16 +14,15 @@
 .landing-index {
     height: 75vh;
     padding: 5%;
-    margin-top: 8vh;
+    margin-top: 3%;
     background-color: white;
     border-radius: 1em;
-
 }
 
 .landing-services {
     height: 75vh;
     padding: 5%;
-    margin-top: 8vh;
+    margin-top: 3%;
     background-color: white;
     border-radius: 1em;
 }
@@ -31,7 +30,7 @@
 .landing-about {
     height: 75vh;
     padding: 5%;
-    margin-top: 8vh;
+    margin-top: 3%;
     background-color: white;
     border-radius: 1em;
 }
@@ -39,13 +38,11 @@
 .landing-contact {
     height: 75vh;
     padding: 5%;
-    margin-top: 8vh;
+    margin-top: 3%;
     background-color: white;
     border-radius: 1em;
-
 }
 
 .landing {
-    margin-top: 5%;
     background-color: rgb(199, 225, 255);
 }
