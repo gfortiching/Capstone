@@ -14,6 +14,7 @@ $con = connection();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Waves</title>
     <link rel="stylesheet" href="styles.css">
+
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
@@ -71,12 +72,37 @@ $con = connection();
             </div>
         </div>
     </nav>
-    <main class="main landing" class="image">
-        <section class="landing-index">
-            <h1>Landing Page</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nobis blanditiis ab, doloribus ullam vero
-                fugit consectetur itaque est et eos laborum debitis ad earum reprehenderit asperiores tempore quaerat
-                in.</p>
+   <main class="main">
+        <section class="landing">
+            <article class="landing-index">
+                <h1>Landing Page</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nobis blanditiis ab, doloribus ullam
+                    vero
+                    fugit consectetur itaque est et eos laborum debitis ad earum reprehenderit asperiores tempore
+                    quaerat
+                    in.</p>
+            </article>
+        </section>
+        <section class="landing">
+            <article class="landing-index">
+                <h1>Landing Page</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nobis blanditiis ab, doloribus ullam
+                    vero
+                    fugit consectetur itaque est et eos laborum debitis ad earum reprehenderit asperiores tempore
+                    quaerat
+                    in.</p>
+            </article>
+        </section>
+        <section class="landing">
+            <article class="landing-index">
+                <h1>Landing Page</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nobis blanditiis ab, doloribus ullam
+                    vero
+                    fugit consectetur itaque est et eos laborum debitis ad earum reprehenderit asperiores tempore
+                    quaerat
+                    in.</p>
+            </article>
+>>>>>>> 55be34e62c9e61333c344afe709505fda71de24c
         </section>
     </main>
 
