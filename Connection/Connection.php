@@ -3,8 +3,8 @@ function connection()
 {
     $host = "localhost";
     $username = "root";
-    $password = "boloron09";
-    $database = "Capstone";
+    $password = "/S@IM59VXlGnvp]g";
+    $database = "capstone";
 
     $con = new mysqli($host, $username, $password, $database);
 

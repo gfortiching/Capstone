@@ -72,8 +72,8 @@ $con = connection();
             </div>
         </div>
     </nav>
-   <main class="main">
-        <section class="landing">
+    <main class="main">
+        <section class="landing-background">
             <article class="landing-index">
                 <h1>Landing Page</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nobis blanditiis ab, doloribus ullam
@@ -102,7 +102,6 @@ $con = connection();
                     quaerat
                     in.</p>
             </article>
->>>>>>> 55be34e62c9e61333c344afe709505fda71de24c
         </section>
     </main>
 
