@@ -72,12 +72,36 @@ $con = connection();
             </div>
         </div>
     </nav>
-    <main class="main landing">
-        <section class="landing-index">
-            <h1>Landing Page</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nobis blanditiis ab, doloribus ullam vero
-                fugit consectetur itaque est et eos laborum debitis ad earum reprehenderit asperiores tempore quaerat
-                in.</p>
+    <main class="main">
+        <section class="landing">
+            <article class="landing-index">
+                <h1>Landing Page</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nobis blanditiis ab, doloribus ullam
+                    vero
+                    fugit consectetur itaque est et eos laborum debitis ad earum reprehenderit asperiores tempore
+                    quaerat
+                    in.</p>
+            </article>
+        </section>
+        <section class="landing">
+            <article class="landing-index">
+                <h1>Landing Page</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nobis blanditiis ab, doloribus ullam
+                    vero
+                    fugit consectetur itaque est et eos laborum debitis ad earum reprehenderit asperiores tempore
+                    quaerat
+                    in.</p>
+            </article>
+        </section>
+        <section class="landing">
+            <article class="landing-index">
+                <h1>Landing Page</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nobis blanditiis ab, doloribus ullam
+                    vero
+                    fugit consectetur itaque est et eos laborum debitis ad earum reprehenderit asperiores tempore
+                    quaerat
+                    in.</p>
+            </article>
         </section>
     </main>
 

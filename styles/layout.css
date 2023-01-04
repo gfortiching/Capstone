@@ -5,13 +5,21 @@
 }
 
 .main {
-    height: 200vh;
     width: 100%;
     margin: 0 auto;
     padding: 5%;
+    background-color: rgb(199, 225, 255);
 }
 
 .landing-index {
+    height: 75vh;
+    padding: 5%;
+    margin-top: 3%;
+    background-color: white;
+    border-radius: 1em;
+}
+
+.landing-dashboard {
     height: 75vh;
     padding: 5%;
     margin-top: 3%;
@@ -44,5 +52,6 @@
 }
 
 .landing {
+    height: 100vh;
     background-color: rgb(199, 225, 255);
 }

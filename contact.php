@@ -71,15 +71,39 @@ $con = connection();
             </div>
         </div>
     </nav>
-    <main class="main landing">
-        <section class="landing-contact">
-            <h1>Contact Page</h1>
-
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nobis blanditiis ab, doloribus ullam vero
-                fugit consectetur itaque est et eos laborum debitis ad earum reprehenderit asperiores tempore quaerat
-                in.</p>
+    <main class="main">
+        <section class="landing">
+            <article class="landing-contact">
+                <h1>Contact Page</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nobis blanditiis ab, doloribus ullam
+                    vero
+                    fugit consectetur itaque est et eos laborum debitis ad earum reprehenderit asperiores tempore
+                    quaerat
+                    in.</p>
+            </article>
+        </section>
+        <section class="landing">
+            <article class="landing-contact">
+                <h1>Contact Page</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nobis blanditiis ab, doloribus ullam
+                    vero
+                    fugit consectetur itaque est et eos laborum debitis ad earum reprehenderit asperiores tempore
+                    quaerat
+                    in.</p>
+            </article>
+        </section>
+        <section class="landing">
+            <article class="landing-contact">
+                <h1>Contact Page</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nobis blanditiis ab, doloribus ullam
+                    vero
+                    fugit consectetur itaque est et eos laborum debitis ad earum reprehenderit asperiores tempore
+                    quaerat
+                    in.</p>
+            </article>
         </section>
     </main>
+
 
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
