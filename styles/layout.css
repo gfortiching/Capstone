@@ -63,3 +63,54 @@
 .landing {
     height: 100vh;
 }
+
+footer {
+    height: auto;
+    padding: 2% 5%;
+    bottom: 0;
+    background-color: #040923be;
+}
+
+.footer-section {
+    height: 100%;
+    display: flex;
+}
+
+.box {
+    height: 100%;
+    margin: auto 1%;
+}
+
+.box ul {
+    padding: 0;
+}
+
+.box li, .box a {
+    margin: 2% auto;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+}
+
+.box:nth-child(1) {
+    height: 100%;
+    width: 100%;
+}
+
+.box:nth-child(2) {
+    height: 100%;
+    width: 100%;
+}
+
+.box:nth-child(3) {
+    height: 100%;
+    width: 100%;
+}
+
+.copyright {
+    height: auto;
+    color: white;
+    margin: 1%;
+    text-align: center;
+}

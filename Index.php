@@ -33,7 +33,7 @@ $con = connection();
 
                 <ul class="navbar-nav">
                     <li class="nav-item me-0 me-lg-5">
-                        <a class="hover" href="index.php">GoToda</a>
+                        <a class="hover" href="index.php">GoTODA</a>
                     </li>
                     <li class="nav-item">
                         <a class="hover" href="dashboard.php">Dashboard</a>
@@ -97,6 +97,32 @@ $con = connection();
                 assumenda repellat!</h1>
         </article>
     </section>
+    <footer>
+        <section class="footer-section">
+            <div class="box">1</div>
+            <div class="box">
+                <ul>
+                    <li>
+                        <a href="">Home</a>
+                    </li>
+                    <li>
+                        <a href="">Services</a>
+                    </li>
+                    <li>
+                        <a href="">About</a>
+                    </li>
+                    <li>
+                        <a href="">Contact</a>
+                    </li>
+                    <li>
+                        <a href="">FAQs</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="box">3</div>
+        </section>
+        <div class="copyright">Copyright &#169; 2022 - GoTODA</div>
+    </footer>
 
 
     <!-- JavaScript Bundle with Popper -->
