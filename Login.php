@@ -58,7 +58,7 @@ if (isset($_POST['login'])) {
 
                 <ul class="navbar-nav">
                     <li class="nav-item me-0 me-lg-5">
-                        <a class="hover" href="index.php">Waves</a>
+                        <a class="hover" href="index.php">GoToda</a>
                     </li>
                     <li class="nav-item">
                         <a class="hover" href="dashboard.php">Dashboard</a>

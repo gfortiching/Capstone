@@ -12,7 +12,7 @@ $con = connection();
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Waves</title>
+    <title>GoToda</title>
     <link rel="stylesheet" href="styles.css">
 
     <!-- CSS only -->
@@ -32,7 +32,7 @@ $con = connection();
 
                 <ul class="navbar-nav">
                     <li class="nav-item me-0 me-lg-5">
-                        <a class="hover" href="index.php">Waves</a>
+                        <a class="hover" href="index.php">GoToda</a>
                     </li>
                     <li class="nav-item">
                         <a class="hover" href="dashboard.php">Dashboard</a>
@@ -76,31 +76,21 @@ $con = connection();
         <section class="landing">
             <article class="landing-index">
                 <h1>Landing Page</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nobis blanditiis ab, doloribus ullam
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nobis blanditiis ab, doloribus ullam
                     vero
                     fugit consectetur itaque est et eos laborum debitis ad earum reprehenderit asperiores tempore
                     quaerat
-                    in.</p>
-            </article>
-        </section>
-        <section class="landing">
-            <article class="landing-index">
-                <h1>Landing Page (Others)</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nobis blanditiis ab, doloribus ullam
-                    vero
-                    fugit consectetur itaque est et eos laborum debitis ad earum reprehenderit asperiores tempore
-                    quaerat
-                    in.</p>
+                    in.</h3>
             </article>
         </section>
         <section class="landing">
             <article class="landing-index">
                 <h1>Landing Page</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nobis blanditiis ab, doloribus ullam
-                    vero
-                    fugit consectetur itaque est et eos laborum debitis ad earum reprehenderit asperiores tempore
-                    quaerat
-                    in.</p>
+            </article>
+        </section>
+        <section class="landing">
+            <article class="landing-index">
+                <h1>Landing Page</h1>
             </article>
         </section>
     </main>

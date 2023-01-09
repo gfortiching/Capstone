@@ -7,7 +7,6 @@
 .main {
     width: 100%;
     margin: 0 auto;
-    padding: 5%;
     background: url('../Images/toda1.jpg') repeat fixed 100%; 
     background-size: 100%;
     height: auto;
@@ -17,11 +16,12 @@
     height: 75vh;
     padding: 5%;
     margin-top: 8vh;
-    background-color: rgba(255, 255, 255, 0.275);
     border-radius: 1em;
     color: white;
     margin-top: 3%;
     border-radius: 1em;
+    background-color: rgba(0, 0, 0, 0.408);
+    backdrop-filter: blur(5px);
 }
 
 .landing-dashboard {
@@ -30,7 +30,7 @@
     margin-top: 3%;
     border-radius: 1em;
     color: white;
-    background-color: rgba(255, 255, 255, 0.275);
+    background-color: rgba(255, 255, 255, 0.567);
 }
 
 .landing-services {
