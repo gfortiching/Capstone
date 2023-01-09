@@ -10,7 +10,7 @@ nav.navbar {
     position: fixed;
     top: 0;
     padding: 1.5% 2em;
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: #040923be;
     z-index: 999;
 }
 

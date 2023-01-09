@@ -14,6 +14,7 @@ $con = connection();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GoToda</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -74,7 +75,7 @@ $con = connection();
     </nav>
     <main class="main">
         <section class="landing">
-            <article class="landing-index">
+            <article class="landing-index" data-aos="fade-right">
                 <h1>Landing Page</h1>
                 <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nobis blanditiis ab, doloribus ullam
                     vero
@@ -84,16 +85,18 @@ $con = connection();
             </article>
         </section>
         <section class="landing">
-            <article class="landing-index">
-                <h1>Landing Page</h1>
-            </article>
-        </section>
-        <section class="landing">
-            <article class="landing-index">
+            <article class="landing-index" data-aos="fade-right">
                 <h1>Landing Page</h1>
             </article>
         </section>
     </main>
+    <section class="landing">
+        <article class="p-5">
+            <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo quae molestias, libero suscipit, ut vel
+                illo voluptatem vero nostrum sequi delectus nulla id recusandae alias. Velit, illo! Laboriosam,
+                assumenda repellat!</h1>
+        </article>
+    </section>
 
 
     <!-- JavaScript Bundle with Popper -->
@@ -101,6 +104,9 @@ $con = connection();
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/b8b5c0695c.js" crossorigin="anonymous"></script>
+    <!-- Animate on Scroll -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="module" src="scripts/animate.js"></script>
 </body>
 
 </html>
