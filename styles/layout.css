@@ -10,7 +10,6 @@
     background: url('../Images/toda1.jpg') repeat fixed 100%; 
     background-size: 100%;
     height: auto;
-    padding: 5%;
 }
 
 .landing {
@@ -23,7 +22,6 @@
     padding: 5%;
     border-radius: 1em;
     color: white;
-    margin-top: 5%;
     border-radius: 1em;
     background-color: rgba(0, 0, 0, 0.408);
     backdrop-filter: blur(3px);
