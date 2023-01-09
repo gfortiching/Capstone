@@ -10,58 +10,56 @@
     background: url('../Images/toda1.jpg') repeat fixed 100%; 
     background-size: 100%;
     height: auto;
+    padding: 5%;
+}
+
+.landing {
+    height: 100vh;
+    padding: 5%;
 }
 
 .landing-index {
     height: 75vh;
     padding: 5%;
-    margin-top: 8vh;
     border-radius: 1em;
     color: white;
-    margin-top: 3%;
+    margin-top: 5%;
     border-radius: 1em;
     background-color: rgba(0, 0, 0, 0.408);
     backdrop-filter: blur(3px);
 }
 
-.landing-dashboard {
-    height: 75vh;
-    padding: 5%;
-    margin-top: 3%;
-    border-radius: 1em;
-    color: white;
-    background-color: rgba(255, 255, 255, 0.567);
-}
-
 .landing-services {
     height: 75vh;
     padding: 5%;
-    margin-top: 3%;
-    color: white;
-    background-color: rgba(255, 255, 255, 0.275);
     border-radius: 1em;
+    color: white;
+    margin-top: 5%;
+    border-radius: 1em;
+    background-color: rgba(0, 0, 0, 0.408);
+    backdrop-filter: blur(3px);
 }
 
 .landing-about {
     height: 75vh;
     padding: 5%;
-    margin-top: 3%;
-    color: white;
-    background-color: rgba(255, 255, 255, 0.275);
     border-radius: 1em;
+    color: white;
+    margin-top: 5%;
+    border-radius: 1em;
+    background-color: rgba(0, 0, 0, 0.408);
+    backdrop-filter: blur(3px);
 }
 
 .landing-contact {
     height: 75vh;
     padding: 5%;
-    margin-top: 3%;
-    color: white;
-    background-color: rgba(255, 255, 255, 0.275);
     border-radius: 1em;
-}
-
-.landing {
-    height: 100vh;
+    color: white;
+    margin-top: 5%;
+    border-radius: 1em;
+    background-color: rgba(0, 0, 0, 0.408);
+    backdrop-filter: blur(3px);
 }
 
 footer {

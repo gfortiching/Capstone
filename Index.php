@@ -32,20 +32,17 @@ $con = connection();
             <div class="collapse navbar-collapse hidden" id="navbarBasic">
 
                 <ul class="navbar-nav">
-                    <li class="nav-item me-0 me-lg-5">
-                        <a class="hover" href="index.php">GoTODA</a>
+                    <li class="nav-item hover me-5" onclick="Landing()">
+                        GoTODA
                     </li>
-                    <li class="nav-item">
-                        <a class="hover" href="dashboard.php">Dashboard</a>
+                    <li class="nav-item hover me-4" onclick="Services()">
+                        Services
                     </li>
-                    <li class="nav-item">
-                        <a class="hover" href="services.php">Services</a>
+                    <li class="nav-item hover me-4" onclick="About()">
+                        About Us
                     </li>
-                    <li class="nav-item">
-                        <a class="hover" href="about.php">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="hover" href="contact.php">Contact</a>
+                    <li class="nav-item hover me-4" onclick="Contact()">
+                        Contact
                     </li>
                     <li class="nav-item ms-lg-auto me-5 d-none d-lg-inline">
                         <b>
@@ -74,7 +71,7 @@ $con = connection();
         </div>
     </nav>
     <main class="main">
-        <section class="landing">
+        <section id="landing" class="landing">
             <article class="landing-index" data-aos="fade-right">
                 <h1>Landing Page</h1>
                 <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nobis blanditiis ab, doloribus ullam
@@ -84,20 +81,42 @@ $con = connection();
                     in.</h3>
             </article>
         </section>
-        <section class="landing">
-            <article class="landing-index" data-aos="fade-right">
-                <h1>Landing Page</h1>
+
+        <section id="services" class="landing">
+            <article class="landing-services" data-aos="fade-right">
+                <h1>Services Page</h1>
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nobis blanditiis ab, doloribus ullam
+                    vero
+                    fugit consectetur itaque est et eos laborum debitis ad earum reprehenderit asperiores tempore
+                    quaerat
+                    in.</h3>
+            </article>
+        </section>
+
+        <section id="about" class="landing">
+            <article class="landing-about" data-aos="fade-right">
+                <h1>About Page</h1>
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nobis blanditiis ab, doloribus ullam
+                    vero
+                    fugit consectetur itaque est et eos laborum debitis ad earum reprehenderit asperiores tempore
+                    quaerat
+                    in.</h3>
+            </article>
+        </section>
+
+        <section id="contact" class="landing">
+            <article class="landing-contact" data-aos="fade-right">
+                <h1>Contact Page</h1>
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nobis blanditiis ab, doloribus ullam
+                    vero
+                    fugit consectetur itaque est et eos laborum debitis ad earum reprehenderit asperiores tempore
+                    quaerat
+                    in.</h3>
             </article>
         </section>
     </main>
-    <section class="landing">
-        <article class="p-5">
-            <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo quae molestias, libero suscipit, ut vel
-                illo voluptatem vero nostrum sequi delectus nulla id recusandae alias. Velit, illo! Laboriosam,
-                assumenda repellat!</h1>
-        </article>
-    </section>
-    <footer>
+
+    <footer id="footer">
         <section class="footer-section">
             <div class="box">1</div>
             <div class="box">
@@ -119,7 +138,8 @@ $con = connection();
                     </li>
                 </ul>
             </div>
-            <div class="box">3</div>
+            <div class=" box">3
+            </div>
         </section>
         <div class="copyright">Copyright &#169; 2022 - GoTODA</div>
     </footer>
@@ -132,7 +152,30 @@ $con = connection();
     <script src="https://kit.fontawesome.com/b8b5c0695c.js" crossorigin="anonymous"></script>
     <!-- Animate on Scroll -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script type="module" src="scripts/animate.js"></script>
+    <script>
+
+        AOS.init();
+
+        function Landing() {
+            const landing = document.getElementById("landing");
+            landing.scrollIntoView();
+        };
+
+        function Services() {
+            const services = document.getElementById("services");
+            services.scrollIntoView();
+        };
+
+        function About() {
+            const about = document.getElementById("about");
+            about.scrollIntoView();
+        };
+
+        function Contact() {
+            const contact = document.getElementById("contact");
+            contact.scrollIntoView();
+        };
+    </script>
 </body>
 
 </html>
