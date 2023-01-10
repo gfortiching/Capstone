@@ -15,7 +15,6 @@ $con = connection();
     <title>GoToda</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
@@ -71,6 +70,7 @@ $con = connection();
         </div>
     </nav>
     <main class="main">
+        <!--Landing Page/Section-->
         <section id="landing" class="landing">
             <article class="landing-index" data-aos="fade-right">
                 <h1>Landing Page</h1>
@@ -81,7 +81,7 @@ $con = connection();
                     in.</h3>
             </article>
         </section>
-
+        <!--Services Section-->
         <section id="services" class="landing">
             <article class="landing-services" data-aos="fade-right">
                 <h1>Services Page</h1>
@@ -92,7 +92,7 @@ $con = connection();
                     in.</h3>
             </article>
         </section>
-
+        <!--Services Section-->
         <section id="about" class="landing">
             <article class="landing-about" data-aos="fade-right">
                 <h1>About Page</h1>
@@ -103,7 +103,7 @@ $con = connection();
                     in.</h3>
             </article>
         </section>
-
+        <!--Contact Section-->
         <section id="contact" class="landing">
             <article class="landing-contact" data-aos="fade-right">
                 <h1>Contact Page</h1>
