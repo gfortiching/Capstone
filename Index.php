@@ -69,52 +69,62 @@ $con = connection();
             </div>
         </div>
     </nav>
-    <main class="main">
-        <!--Landing Page/Section-->
-        <section id="landing" class="landing">
-            <article class="landing-index" data-aos="fade-right">
-                <h1>Landing Page</h1>
-                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nobis blanditiis ab, doloribus ullam
-                    vero
-                    fugit consectetur itaque est et eos laborum debitis ad earum reprehenderit asperiores tempore
-                    quaerat
-                    in.</h3>
-            </article>
+        <!-- <section class="top">
+            <div class="title">
+                <h3>Let's do Toda</h3>
+                <h1>TRYCYCLE</h1>
+            </div>
+         </section> -->
+         <section class="page" id="landing">
+            <div class="parallax1">
+            <div class="overlay"></div>
+                <h1>WELCOME TO TODA</h1>
+            </div>
+            
+            <div class="paragraph first">
+                <p><span>L</span>orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+
+            <div class="parallax2" id="services">
+                <div class="overlay"></div>
+                <h2>Featured Services</h2>
+            </div>
+            <div class="paragraph second">
+                <p><span>O</span>rci porta non pulvinar neque laoreet suspendisse interdum. Nulla malesuada pellentesque elit eget gravida. Ac orci phasellus egestas tellus rutrum tellus pellentesque eu tincidunt. Ut lectus arcu bibendum at varius vel pharetra vel turpis. Eleifend quam adipiscing vitae proin sagittis nisl rhoncus. Aliquet eget sit amet tellus cras adipiscing enim eu turpis. Pharetra convallis posuere morbi leo urna molestie. Volutpat lacus laoreet non curabitur gravida. Ornare aenean euismod elementum nisi quis eleifend quam. Fames ac turpis egestas sed tempus urna. Nisl nisi scelerisque eu ultrices vitae auctor. A iaculis at erat pellentesque adipiscing commodo elit at. Nulla posuere sollicitudin aliquam ultrices. Semper feugiat nibh sed pulvinar proin gravida hendrerit lectus. Tortor at auctor urna nunc id cursus metus aliquam eleifend. Et molestie ac feugiat sed lectus. Lacus laoreet non curabitur gravida arcu ac tortor dignissim convallis. Neque viverra justo nec ultrices dui sapien eget mi.</p>
+            </div>
+
+            <div class="parallax3" id="about">
+                <div class="overlay"></div>
+                <h2>About us</h2>
+            </div>
+            <div class="paragraph second">
+                <p><span>O</span>rci porta non pulvinar neque laoreet suspendisse interdum. Nulla malesuada pellentesque elit eget gravida. Ac orci phasellus egestas tellus rutrum tellus pellentesque eu tincidunt. Ut lectus arcu bibendum at varius vel pharetra vel turpis. Eleifend quam adipiscing vitae proin sagittis nisl rhoncus. Aliquet eget sit amet tellus cras adipiscing enim eu turpis. Pharetra convallis posuere morbi leo urna molestie. Volutpat lacus laoreet non curabitur gravida. Ornare aenean euismod elementum nisi quis eleifend quam. Fames ac turpis egestas sed tempus urna. Nisl nisi scelerisque eu ultrices vitae auctor. A iaculis at erat pellentesque adipiscing commodo elit at. Nulla posuere sollicitudin aliquam ultrices. Semper feugiat nibh sed pulvinar proin gravida hendrerit lectus. Tortor at auctor urna nunc id cursus metus aliquam eleifend. Et molestie ac feugiat sed lectus. Lacus laoreet non curabitur gravida arcu ac tortor dignissim convallis. Neque viverra justo nec ultrices dui sapien eget mi.</p>
+            </div>
+
+            <div class="parallax4">
+                <div class="overlay"></div>
+                <h2>FAQS</h2>
+            </div>
+            <div class="paragraph second">
+                <p><span>O</span>rci porta non pulvinar neque laoreet suspendisse interdum. Nulla malesuada pellentesque elit eget gravida. Ac orci phasellus egestas tellus rutrum tellus pellentesque eu tincidunt. Ut lectus arcu bibendum at varius vel pharetra vel turpis. Eleifend quam adipiscing vitae proin sagittis nisl rhoncus. Aliquet eget sit amet tellus cras adipiscing enim eu turpis. Pharetra convallis posuere morbi leo urna molestie. Volutpat lacus laoreet non curabitur gravida. Ornare aenean euismod elementum nisi quis eleifend quam. Fames ac turpis egestas sed tempus urna. Nisl nisi scelerisque eu ultrices vitae auctor. A iaculis at erat pellentesque adipiscing commodo elit at. Nulla posuere sollicitudin aliquam ultrices. Semper feugiat nibh sed pulvinar proin gravida hendrerit lectus. Tortor at auctor urna nunc id cursus metus aliquam eleifend. Et molestie ac feugiat sed lectus. Lacus laoreet non curabitur gravida arcu ac tortor dignissim convallis. Neque viverra justo nec ultrices dui sapien eget mi.</p>
+            </div>
+
+            <div class="parallax5" id="contact">
+                <div class="overlay"></div>
+                <h2>Contact Us</h2>
+            </div>
+            <div class="paragraph second">
+                <p><span>O</span>rci porta non pulvinar neque laoreet suspendisse interdum. Nulla malesuada pellentesque elit eget gravida. Ac orci phasellus egestas tellus rutrum tellus pellentesque eu tincidunt. Ut lectus arcu bibendum at varius vel pharetra vel turpis. Eleifend quam adipiscing vitae proin sagittis nisl rhoncus. Aliquet eget sit amet tellus cras adipiscing enim eu turpis. Pharetra convallis posuere morbi leo urna molestie. Volutpat lacus laoreet non curabitur gravida. Ornare aenean euismod elementum nisi quis eleifend quam. Fames ac turpis egestas sed tempus urna. Nisl nisi scelerisque eu ultrices vitae auctor. A iaculis at erat pellentesque adipiscing commodo elit at. Nulla posuere sollicitudin aliquam ultrices. Semper feugiat nibh sed pulvinar proin gravida hendrerit lectus. Tortor at auctor urna nunc id cursus metus aliquam eleifend. Et molestie ac feugiat sed lectus. Lacus laoreet non curabitur gravida arcu ac tortor dignissim convallis. Neque viverra justo nec ultrices dui sapien eget mi.</p>
+            </div>
+            
+            <!-- <div class="parallax3"></div>
+            <div class="paragraph third">
+                <p><span>A</span>uctor neque vitae tempus quam pellentesque. In nibh mauris cursus mattis molestie a iaculis at. Sem integer vitae justo eget magna fermentum iaculis eu non. Eget velit aliquet sagittis id. Sed libero enim sed faucibus turpis in eu mi bibendum. Blandit libero volutpat sed cras. Ultricies integer quis auctor elit sed vulputate mi sit. Eget lorem dolor sed viverra ipsum nunc. Fringilla urna porttitor rhoncus dolor purus non enim praesent elementum. Ac placerat vestibulum lectus mauris ultrices eros in cursus. Integer vitae justo eget magna fermentum iaculis eu. Auctor elit sed vulputate mi sit amet mauris commodo.</p>
+            </div> -->
+            
         </section>
-        <!--Services Section-->
-        <section id="services" class="landing">
-            <article class="landing-services" data-aos="fade-right">
-                <h1>Services Page</h1>
-                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nobis blanditiis ab, doloribus ullam
-                    vero
-                    fugit consectetur itaque est et eos laborum debitis ad earum reprehenderit asperiores tempore
-                    quaerat
-                    in.</h3>
-            </article>
-        </section>
-        <!--Services Section-->
-        <section id="about" class="landing">
-            <article class="landing-about" data-aos="fade-right">
-                <h1>About Page</h1>
-                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nobis blanditiis ab, doloribus ullam
-                    vero
-                    fugit consectetur itaque est et eos laborum debitis ad earum reprehenderit asperiores tempore
-                    quaerat
-                    in.</h3>
-            </article>
-        </section>
-        <!--Contact Section-->
-        <section id="contact" class="landing">
-            <article class="landing-contact" data-aos="fade-right">
-                <h1>Contact Page</h1>
-                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nobis blanditiis ab, doloribus ullam
-                    vero
-                    fugit consectetur itaque est et eos laborum debitis ad earum reprehenderit asperiores tempore
-                    quaerat
-                    in.</h3>
-            </article>
-        </section>
-    </main>
+  
 
     <footer id="footer">
         <section class="footer-section">
