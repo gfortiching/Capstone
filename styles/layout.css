@@ -1,4 +1,4 @@
-* {
+/* * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -59,7 +59,7 @@
     border-radius: 1em;
     background-color: rgba(0, 0, 0, 0.408);
     backdrop-filter: blur(3px);
-}
+} */
 
 footer {
     height: auto;
@@ -110,4 +110,248 @@ footer {
     color: white;
     margin: 1%;
     text-align: center;
+}
+
+/* -
+-*-~*~-*-*-~*~-*-*-~*~* |
+●▬▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬▬●
+Made by ~
+Areal Alien ❥ 雷克斯
+●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●
+──────▄▀▄─────▄▀▄
+─────▄█░░▀▀▀▀▀░░█▄
+─▄▄──█░░░░░░░░░░░█──▄▄
+█▄▄█─█░░▀░░┬░░▀░░█─█▄▄█
+-*-~*~-*-*-~*~-*-*-~*~* |
+- */
+
+@import url(https://fonts.googleapis.com/css?family=Oswald:300,400,700);
+
+:root {
+  --bc: #efeeee;
+  --white: #ffffff;
+	--black: #000000;
+  --red: #da2c4d;
+	--teal: #20c997;
+	--cyan: #17a2b8;
+	--primary: #f9c6cf;
+	--font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	margin: 0;
+    width: 100%;
+    min-height: 100vh;
+        overflow-x: hidden;
+        font-family: var(--font-family-sans-serif);
+    scroll-behavior: smooth;
+        -webkit-font-smoothing: antialiased;
+    background-color: var(--bc);
+    }
+/* Classes */
+/* .top {
+  padding: 2em;
+  margin: 0 auto;
+  background-color: white;
+  text-align: center;
+}
+.title {
+  color: var(--black);
+}
+.title h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 35px;
+  font-weight: 400;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+.title h3 {
+  font-size: 14px; 
+  font-weight: 400; 
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase; 
+  letter-spacing: 8px;
+  line-height: 0;
+} */
+/* Parallax */
+.parallax1 {
+ display: flex;
+  position: relative;
+  background-image: url('../Images/toda6.jpg');
+  height: 100vh; 
+  width: 100%;
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+}
+.parallax2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-image: url('../Images/toda3.jpg');
+  min-height: 50vh; 
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-image: url('../Images/toda4.jpg');
+    min-height: 50vh; 
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallax4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-image: url('../Images/toda5.jpg');
+    min-height: 50vh; 
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallax5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-image: url('../Images/toda1.jpg');
+    min-height: 50vh; 
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .4);
+  position: absolute;
+}
+
+.parallax1 h1 {
+    font-size: 8em;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: var(--white);
+    z-index: 1;
+    font-family: 'Oswald', sans-serif;
+  }
+
+.parallax2 h2 {
+  font-size: 5em;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: var(--white);
+  z-index: 1;
+}
+
+.parallax3 h2 {
+    font-size: 5em;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: var(--white);
+    z-index: 1;
+  }
+  .parallax4 h2 {
+    font-size: 5em;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: var(--white);
+    z-index: 1;
+  }
+  .parallax5 h2 {
+    font-size: 5em;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: var(--white);
+    z-index: 1;
+  }
+/* .parallax3 {
+  position: relative;
+  background-image: url('../Images/toda3.jpg');
+  min-height: 50vh; 
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+/* Paragraph */
+.paragraph {
+  margin: 3em 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.paragraph p {
+  width: 60%;
+  font-size: 1.05em;
+  line-height: 1.45em;
+  letter-spacing: .1em;
+  color: rgb(64, 64, 64);
+}
+.first span {
+  font-size: 4em;
+  color: var(--red);
+  float: left;
+  font-weight: 400;
+  line-height: 55px;
+  padding: .05em .2em 0 0;
+}
+.second span {
+  font-size: 4em;
+  color: var(--teal);
+  float: left;
+  font-weight: 400;
+  line-height: 55px;
+  padding: .05em .2em 0 0;
+}
+.third span {
+  font-size: 4em;
+  color: var(--cyan);
+  float: left;
+  font-weight: 400;
+  line-height: 55px;
+  padding: .05em .2em 0 0;
+}
+/* Selection */
+::selection {
+  color: var(--white);
+  background: rgba(161, 181, 201, .8);
+}
+/* SCROLLBAR */
+::-webkit-scrollbar-track {
+      background-color: #F5F5F5;
+}
+::-webkit-scrollbar {
+      width: 12px;
+      background-color: #F5F5F5;
+}
+::-webkit-scrollbar-thumb {
+      background-color: rgba(161, 181, 201, .8);
 }
