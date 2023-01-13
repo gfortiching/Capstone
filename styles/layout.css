@@ -1,65 +1,32 @@
-/* * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+
+/* ********************navbar  */
+.nav-item span {
+  color: var(--cyan);
+}
+.nav-item > .hover {
+  color: #fff;
+  border-radius: 4px;
+  padding: 7px 25px 8px 25px;
+  white-space: nowrap;
+  transition: 0.3s;
+  font-size: 14px;
+  display: inline-block;
+  border: 2px solid var(--cyan);
 }
 
-.main {
-    width: 100%;
-    margin: 0 auto;
-    background: url('../Images/toda1.jpg') repeat fixed 100%; 
-    background-size: 100%;
-    height: auto;
+.nav-item > .hover:hover {
+  background: var(--cyan);
+  color: #343a40;
 }
 
-.landing {
-    min-height: 100vh;
-    padding: 5%;
+@media (max-width: 992px) {
+  .nav-item > .hover {
+    padding: 7px 20px 8px 20px;
+    margin-right: 15px;
+  }
 }
 
-.landing-index {
-    height: 75vh;
-    padding: 5%;
-    border-radius: 1em;
-    color: white;
-    margin-top: 5%;
-    border-radius: 1em;
-    background-color: rgba(0, 0, 0, 0.408);
-    backdrop-filter: blur(3px);
-}
-
-.landing-services {
-    height: 75vh;
-    padding: 5%;
-    border-radius: 1em;
-    color: white;
-    margin-top: 5%;
-    border-radius: 1em;
-    background-color: rgba(0, 0, 0, 0.408);
-    backdrop-filter: blur(3px);
-}
-
-.landing-about {
-    height: 75vh;
-    padding: 5%;
-    border-radius: 1em;
-    color: white;
-    margin-top: 5%;
-    border-radius: 1em;
-    background-color: rgba(0, 0, 0, 0.408);
-    backdrop-filter: blur(3px);
-}
-
-.landing-contact {
-    height: 75vh;
-    padding: 5%;
-    border-radius: 1em;
-    color: white;
-    margin-top: 5%;
-    border-radius: 1em;
-    background-color: rgba(0, 0, 0, 0.408);
-    backdrop-filter: blur(3px);
-} */
+/* ********************endnavbar */
 
 footer {
     height: auto;
@@ -151,36 +118,10 @@ html, body {
         -webkit-font-smoothing: antialiased;
     background-color: var(--bc);
     }
-/* Classes */
-/* .top {
-  padding: 2em;
-  margin: 0 auto;
-  background-color: white;
-  text-align: center;
-}
-.title {
-  color: var(--black);
-}
-.title h1 {
-  margin: 0;
-  padding: 0;
-  font-size: 35px;
-  font-weight: 400;
-  font-family: 'Oswald', sans-serif;
-  letter-spacing: 8px;
-  text-transform: uppercase;
-}
-.title h3 {
-  font-size: 14px; 
-  font-weight: 400; 
-  font-family: 'Oswald', sans-serif;
-  text-transform: uppercase; 
-  letter-spacing: 8px;
-  line-height: 0;
-} */
-/* Parallax */
+
 .parallax1 {
  display: flex;
+ flex-direction: column;
   position: relative;
   background-image: url('../Images/toda6.jpg');
   height: 100vh; 
@@ -219,19 +160,7 @@ html, body {
     background-repeat: no-repeat;
     background-size: cover;
   }
-  .parallax4 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    background-image: url('../Images/toda5.jpg');
-    min-height: 50vh; 
-    position: relative;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+  
   .parallax5 {
     display: flex;
     justify-content: center;
@@ -290,16 +219,6 @@ html, body {
     color: var(--white);
     z-index: 1;
   }
-/* .parallax3 {
-  position: relative;
-  background-image: url('../Images/toda3.jpg');
-  min-height: 50vh; 
-  position: relative;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
 /* Paragraph */
 .paragraph {
   margin: 3em 0;
@@ -354,4 +273,453 @@ html, body {
 }
 ::-webkit-scrollbar-thumb {
       background-color: rgba(161, 181, 201, .8);
+}
+
+/* edsel */
+#hero {
+  width: 100%;
+  height: 100vh;
+  background-image: url('../Images/toda6.jpg');
+  background-size: cover;
+  position: relative;
+}
+
+#hero:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#hero .container {
+  position: relative;
+  padding-top: 74px;
+  text-align: center;
+}
+
+#hero h1 {
+  margin: 0;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 64px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+#hero h1 span {
+  color: var(--cyan);
+}
+
+#hero h2 {
+  color: rgba(255, 255, 255, 0.9);
+  margin: 10px 0 0 0;
+  font-size: 24px;
+}
+
+#hero .icon-box {
+  padding: 30px 20px;
+  transition: ease-in-out 0.3s;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  height: 100%;
+  text-align: center;
+}
+
+#hero .icon-box i {
+  font-size: 32px;
+  line-height: 1;
+  color: var(--cyan);
+}
+
+#hero .icon-box h3 {
+  font-weight: 700;
+  color: #fff;
+  transition: ease-in-out 0.3s;
+  margin: 10px 0 0 0;
+  padding: 0;
+  line-height: 1;
+  font-size: 20px;
+  line-height: 26px;
+  cursor: pointer;
+}
+#hero .icon-box h3:hover {
+  color: var(--cyan);
+}
+
+#hero .icon-box:hover {
+  border-color: var(--cyan);
+}
+
+@media (min-width: 1024px) {
+  #hero {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero {
+    height: auto;
+  }
+
+  #hero h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  #hero h2 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+
+/****************************************** feature sesction */
+
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.section-title p {
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+.pricing .box {
+  padding: 20px;
+  background: #759696;
+  text-align: center;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid #e5ebeb;
+}
+
+.pricing h3 {
+  font-weight: 400;
+  padding: 15px;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #334242;
+}
+
+.pricing h4 {
+  font-size: 42px;
+  color: #00c1c1;
+  font-weight: 500;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 20px;
+}
+
+.pricing h4 sup {
+  font-size: 20px;
+  top: -15px;
+  left: -3px;
+}
+
+.pricing h4 span {
+  color: #bababa;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.pricing ul {
+  padding: 0;
+  list-style: none;
+  color: #334242;
+  text-align: center;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+.pricing ul li {
+  padding-bottom: 16px;
+}
+
+.pricing ul i {
+  color: #00c1c1;
+  font-size: 18px;
+  padding-right: 4px;
+}
+
+.pricing ul .na {
+  color: #ccc;
+  text-decoration: line-through;
+}
+.pricing .featured {
+  border-color: #00c1c1;
+  background: #00c1c1;
+  box-shadow: none;
+}
+
+.pricing .featured h3,
+.pricing .featured h4,
+.pricing .featured h4 span,
+.pricing .featured ul,
+.pricing .featured ul .na {
+  color: #fff;
+}
+
+.pricing .featured .btn-buy {
+  background: rgba(255, 255, 255, 0.9);
+  color: #00c1c1;
+}
+
+.pricing .featured .btn-buy:hover {
+  background: #fff;
+}
+
+/* **************************************about us */
+.about .content h3 {
+  font-weight: 600;
+  font-size: 26px;
+}
+
+.about .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about .content ul li {
+  padding-left: 28px;
+  position: relative;
+}
+
+.about .content ul li+li {
+  margin-top: 10px;
+}
+
+.about .content ul i {
+  position: absolute;
+  left: 0;
+  top: 2px;
+  font-size: 20px;
+  color: var(--cyan);
+  line-height: 1;
+}
+
+.about .content p:last-child {
+  margin-bottom: 0;
+}
+
+.about .content .btn-learn-more {
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 50px;
+  transition: 0.3s;
+  line-height: 1;
+  color: var(--cyan);
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  margin-top: 6px;
+  border: 2px solid var(--cyan);
+}
+
+.about .content .btn-learn-more:hover {
+  background: var(--cyan);
+  color: #fff;
+  text-decoration: none;
+}
+
+/* ***************************************faqs count */
+.counts {
+  background: url('../Images/toda4.jpg') center center no-repeat;
+  background-size: cover;
+  padding: 80px 0 60px 0;
+  position: relative;
+}
+
+.counts::before {
+  content: "";
+  position: absolute;
+  background: rgba(17, 17, 17, 0.9);
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.counts .title {
+  position: relative;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.counts .title h3 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.counts .counters span {
+  font-size: 48px;
+  display: block;
+  font-weight: 700;
+  color: var(--cyan);
+}
+
+.counts .counters p {
+  padding: 0;
+  margin: 0 0 20px 0;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  color: #fff;
+}
+
+@media (min-width: 1200px) {
+  .counts {
+    background-attachment: fixed;
+  }
+}
+
+
+/* ***************************************contact us */
+.contact .info {
+  width: 100%;
+  background: #fff;
+}
+
+.contact .info i {
+  font-size: 20px;
+  background: var(--cyan);
+  color: #151515;
+  float: left;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact .info h4 {
+  padding: 0 0 0 60px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #151515;
+}
+
+.contact .info p {
+  padding: 0 0 0 60px;
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #484848;
+}
+
+.contact .info .email,
+.contact .info .phone {
+  margin-top: 40px;
+}
+
+.contact .php-email-form {
+  width: 100%;
+  background: #fff;
+}
+
+.contact .php-email-form .form-group {
+  padding-bottom: 8px;
+}
+
+.contact .php-email-form .error-message {
+  display: none;
+  color: #fff;
+  background: #ed3c0d;
+  text-align: left;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.contact .php-email-form .error-message br+br {
+  margin-top: 25px;
+}
+
+.contact .php-email-form .sent-message {
+  display: none;
+  color: #fff;
+  background: #18d26e;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.contact .php-email-form .loading {
+  display: none;
+  background: #fff;
+  text-align: center;
+  padding: 15px;
+}
+
+.contact .php-email-form .loading:before {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px -6px 0;
+  border: 3px solid #18d26e;
+  border-top-color: #eee;
+  -webkit-animation: animate-loading 1s linear infinite;
+  animation: animate-loading 1s linear infinite;
+}
+
+.contact .php-email-form input,
+.contact .php-email-form textarea {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+.contact .php-email-form input:focus,
+.contact .php-email-form textarea:focus {
+  border-color: var(--cyan);
+}
+
+.contact .php-email-form input {
+  height: 44px;
+}
+
+.contact .php-email-form textarea {
+  padding: 10px 12px;
+}
+
+.contact .php-email-form button[type=submit] {
+  background: var(--cyan);
+  border: 0;
+  padding: 10px 24px;
+  color: #151515;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.contact .php-email-form button[type=submit]:hover {
+  background: var(--cyan);
+}
+
+@-webkit-keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }
