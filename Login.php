@@ -88,7 +88,7 @@ if (isset($_POST['login'])) {
 
                     <li class="nav-item ms-lg-0 log">
                         <?php if (isset($_SESSION['UserLogin'])) { ?>
-                            <a class="hover" href=" logout.php">Logout</a>
+                            <a class="hover" href="logout.php">Logout</a>
                         <?php } else { ?>
                             <a class="hover" href="login.php">Login</a>
                         <?php } ?>
