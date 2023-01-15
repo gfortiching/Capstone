@@ -1,0 +1,105 @@
+footer {
+    height: auto;
+    padding: 2% 5%;
+    bottom: 0;
+}
+
+.footer-section {
+    background-color: #040923;
+    padding-top: 2em;
+  }
+  
+  
+  .footer-content {
+    z-index: 2;
+  }
+
+  .footer-social-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .socmedIcons {
+    display: flex;
+    width: 250px;
+    justify-content: center;
+  }
+  
+  .footer-social-icon span {
+    color: var(--white);
+    margin-bottom: 15px;
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  
+  .footer-social-icon a {
+    color: var(--white);
+    margin: 0 auto 15px;
+    font-size: 20px;
+  }
+  
+  .footer-social-icon i {
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 38px;
+    border-radius: 50%;
+  }
+  
+  .facebook-bg {
+    background: var(--facebook);
+  }
+  
+  .discord-bg {
+    background: var(--facebook);
+  }
+  
+  .instagram-bg {
+    background: var(--instagram);
+  }
+  
+  .twitter-bg {
+    background: var(--twitter);
+  }
+  
+  .pinterest-bg {
+    background: red;
+  }
+  
+  .copyright-area {
+    padding: 25px 0;
+  }
+  
+  .copyright-text p {
+    color: var(--white);
+    margin: 0;
+    font-size: 20px;
+  }
+  
+  .copyright-text p a {
+    color: var(--color-6);
+  }
+  
+  .footer-menu li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  .footer-menu li a {
+    color: var(--black);
+    font-size: 20px;
+  }
+  
+  .footer-menu li a:hover {
+    color: var(--color-6);
+  }
+
+  .quick-links p {
+    cursor: pointer;
+  }
+
+  .quick-links p:hover {
+    color: rgb(253, 194, 132);
+}

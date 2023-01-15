@@ -57,21 +57,13 @@ if (isset($_POST['login'])) {
             <div class="collapse navbar-collapse hidden" id="navbarBasic">
 
                 <ul class="navbar-nav">
-                    <li class="nav-item me-0 me-lg-5">
-                        <a class="hover" href="index.php">GoToda</a>
+                    <li class="nav-item hover me-5" onclick="Hero()">
+                        <img class="logo" src="Images/GoToda.png" alt="GoToda" />
                     </li>
-                    <li class="nav-item">
-                        <a class="hover" href="dashboard.php">Dashboard</a>
+                    <li class="nav-item hover me-5" onclick="Hero()">
+                        <a href="index.php">Home</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="hover" href="services.php">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="hover" href="about.php">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="hover" href="contact.php">Contact</a>
-                    </li>
+
                     <li class="nav-item ms-lg-auto me-5 d-none d-lg-inline">
                         <b>
                             <?php if (!isset($_SESSION)) {
@@ -98,6 +90,7 @@ if (isset($_POST['login'])) {
             </div>
         </div>
     </nav>
+
     <main class="main landing">
         <form class="login" action="" method="post">
             <h1>Login</h1>

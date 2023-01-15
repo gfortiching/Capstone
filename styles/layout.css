@@ -1,84 +1,3 @@
-
-/* ********************navbar  */
-.nav-item span {
-  color: var(--cyan);
-}
-.nav-item > .hover {
-  color: #fff;
-  border-radius: 4px;
-  padding: 7px 25px 8px 25px;
-  white-space: nowrap;
-  transition: 0.3s;
-  font-size: 14px;
-  display: inline-block;
-  border: 2px solid var(--cyan);
-}
-
-.nav-item > .hover:hover {
-  background: var(--cyan);
-  color: #343a40;
-}
-
-@media (max-width: 992px) {
-  .nav-item > .hover {
-    padding: 7px 20px 8px 20px;
-    margin-right: 15px;
-  }
-}
-
-/* ********************endnavbar */
-
-footer {
-    height: auto;
-    padding: 2% 5%;
-    bottom: 0;
-    background-color: #040923be;
-}
-
-.footer-section {
-    height: 100%;
-    display: flex;
-}
-
-.box {
-    height: 100%;
-    margin: auto 1%;
-}
-
-.box ul {
-    padding: 0;
-}
-
-.box li, .box a {
-    margin: 2% auto;
-    color: white;
-    list-style: none;
-    text-decoration: none;
-    text-align: center;
-}
-
-.box:nth-child(1) {
-    height: 100%;
-    width: 100%;
-}
-
-.box:nth-child(2) {
-    height: 100%;
-    width: 100%;
-}
-
-.box:nth-child(3) {
-    height: 100%;
-    width: 100%;
-}
-
-.copyright {
-    height: auto;
-    color: white;
-    margin: 1%;
-    text-align: center;
-}
-
 /* -
 -*-~*~-*-*-~*~-*-*-~*~* |
 ●▬▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬▬●
@@ -120,8 +39,8 @@ html, body {
     }
 
 .parallax1 {
- display: flex;
- flex-direction: column;
+  display: flex;
+  flex-direction: column;
   position: relative;
   background-image: url('../Images/toda6.jpg');
   height: 100vh; 
@@ -138,7 +57,6 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
   background-image: url('../Images/toda3.jpg');
   min-height: 50vh; 
   position: relative;
@@ -151,7 +69,6 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
     background-image: url('../Images/toda4.jpg');
     min-height: 50vh; 
     position: relative;
@@ -165,7 +82,6 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
     background-image: url('../Images/toda1.jpg');
     min-height: 50vh; 
     position: relative;
@@ -174,6 +90,7 @@ html, body {
     background-repeat: no-repeat;
     background-size: cover;
   }
+
 .overlay {
   width: 100%;
   height: 100%;
@@ -181,14 +98,15 @@ html, body {
   position: absolute;
 }
 
-.parallax1 h1 {
-    font-size: 8em;
-    font-weight: 500;
-    text-transform: uppercase;
-    color: var(--white);
-    z-index: 1;
-    font-family: 'Oswald', sans-serif;
-  }
+.parallax2 h2 {
+  text-align: center;
+  font-size: 5em;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: var(--white);
+  z-index: 1;
+}
+
 
 .parallax2 h2 {
   font-size: 5em;
@@ -204,6 +122,8 @@ html, body {
     text-transform: uppercase;
     color: var(--white);
     z-index: 1;
+    text-align: center;
+
   }
   .parallax4 h2 {
     font-size: 5em;
@@ -211,6 +131,8 @@ html, body {
     text-transform: uppercase;
     color: var(--white);
     z-index: 1;
+    text-align: center;
+
   }
   .parallax5 h2 {
     font-size: 5em;
@@ -218,10 +140,23 @@ html, body {
     text-transform: uppercase;
     color: var(--white);
     z-index: 1;
+    text-align: center;
   }
+
+  @media all and (max-width: 768px) {
+    .parallax2 h2,
+    .parallax3 h2,
+    .parallax4 h2,
+    .parallax5 h2 {
+      font-size: 2em;
+    }
+  }
+
 /* Paragraph */
+
 .paragraph {
-  margin: 3em 0;
+  margin: auto;
+  padding: 5% 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -229,7 +164,7 @@ html, body {
 }
 .paragraph p {
   width: 60%;
-  font-size: 1.05em;
+  font-size: 24px;
   line-height: 1.45em;
   letter-spacing: .1em;
   color: rgb(64, 64, 64);
@@ -275,13 +210,20 @@ html, body {
       background-color: rgba(161, 181, 201, .8);
 }
 
-/* edsel */
+.onclick {
+  cursor: pointer;
+}
+
+/* Edsel */
 #hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  height: 100vh;
   background-image: url('../Images/toda6.jpg');
   background-size: cover;
   position: relative;
+  min-height: 100vh;
 }
 
 #hero:before {
@@ -296,13 +238,21 @@ html, body {
 
 #hero .container {
   position: relative;
-  padding-top: 74px;
+  padding: 10% 5% 0;
   text-align: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.hero-logo {
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
 }
 
 #hero h1 {
-  margin: 0;
-  font-size: 56px;
+  margin: 3% auto;
+  font-size: 5em;
   font-weight: 700;
   line-height: 64px;
   color: #fff;
@@ -316,15 +266,18 @@ html, body {
 #hero h2 {
   color: rgba(255, 255, 255, 0.9);
   margin: 10px 0 0 0;
-  font-size: 24px;
+  font-size: 32px;
 }
 
 #hero .icon-box {
   padding: 30px 20px;
   transition: ease-in-out 0.3s;
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 1em;
   height: 100%;
+  max-width: 150px;
   text-align: center;
+  margin: auto;
 }
 
 #hero .icon-box i {
@@ -352,20 +305,23 @@ html, body {
   border-color: var(--cyan);
 }
 
-@media (min-width: 1024px) {
-  #hero {
-    background-attachment: fixed;
+@media all and (min-width: 768px) and (max-width: 992px) {
+  #hero h1 {
+    font-size: 4em;
   }
 }
 
-@media (max-width: 768px) {
+@media all and (max-width: 768px) {
+  #hero .container {
+    padding: 20% 5% 0;
+  }
+
   #hero {
     height: auto;
   }
 
   #hero h1 {
-    font-size: 28px;
-    line-height: 36px;
+    font-size: 2.5em;
   }
 
   #hero h2 {
@@ -374,26 +330,42 @@ html, body {
   }
 }
 
-/****************************************** feature sesction */
+/* Feature Section */
 
 .section-title {
   text-align: center;
-  padding-bottom: 30px;
 }
 
 .section-title p {
-  margin-top: 1rem;
-  margin-bottom: 0;
+  font-size: 24px;
+  margin-bottom: 4%;
+}
+
+.pricing .container {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.pricing .box-services {
+  height: 100%;
+  padding: 10%;
+  background-color: #377eb3;  
+  text-align: center;
+  border-radius: 1em;
+  position: relative;
+  overflow: hidden;
+  color: white;
 }
 
 .pricing .box {
-  padding: 20px;
-  background: #759696;
+  height: 100%;
+  padding: 10%;
+  background-color: #ed8632;
   text-align: center;
-  border-radius: 8px;
+  border-radius: 1em;
   position: relative;
   overflow: hidden;
-  border: 2px solid #e5ebeb;
+  color: white;
 }
 
 .pricing h3 {
@@ -402,12 +374,10 @@ html, body {
   font-size: 18px;
   text-transform: uppercase;
   font-weight: 600;
-  color: #334242;
 }
 
 .pricing h4 {
   font-size: 42px;
-  color: #00c1c1;
   font-weight: 500;
   font-family: "Open Sans", sans-serif;
   margin-bottom: 20px;
@@ -420,7 +390,6 @@ html, body {
 }
 
 .pricing h4 span {
-  color: #bababa;
   font-size: 16px;
   font-weight: 300;
 }
@@ -428,7 +397,6 @@ html, body {
 .pricing ul {
   padding: 0;
   list-style: none;
-  color: #334242;
   text-align: center;
   line-height: 20px;
   font-size: 14px;
@@ -447,28 +415,6 @@ html, body {
 .pricing ul .na {
   color: #ccc;
   text-decoration: line-through;
-}
-.pricing .featured {
-  border-color: #00c1c1;
-  background: #00c1c1;
-  box-shadow: none;
-}
-
-.pricing .featured h3,
-.pricing .featured h4,
-.pricing .featured h4 span,
-.pricing .featured ul,
-.pricing .featured ul .na {
-  color: #fff;
-}
-
-.pricing .featured .btn-buy {
-  background: rgba(255, 255, 255, 0.9);
-  color: #00c1c1;
-}
-
-.pricing .featured .btn-buy:hover {
-  background: #fff;
 }
 
 /* **************************************about us */
@@ -692,7 +638,7 @@ html, body {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: var(--cyan);
+  background: #ed8632;
   border: 0;
   padding: 10px 24px;
   color: #151515;
@@ -722,4 +668,43 @@ html, body {
   100% {
     transform: rotate(360deg);
   }
+}
+
+/* Icons */
+
+.services-icon {
+  display: flex;
+  justify-content: center;
+  margin: 1em auto;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
+
+/* Core Values */
+
+.core-values {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.values {
+  width: 150px;
+  text-align: center;
+  margin: 3% 2%;
+  padding: 1%;
+  background-color: #ed8632;
+  border-radius: 1em;
+}
+
+/* Google Fonts */
+
+.open-sans {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.pt-sans {
+  font-family: 'PT Sans', sans-serif;
 }
