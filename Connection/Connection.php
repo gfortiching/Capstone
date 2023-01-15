@@ -4,7 +4,7 @@ function connection()
     $host = "localhost";
     $username = "root";
     $password = "";
-    $database = "edsel";
+    $database = "dave";
 
     $con = new mysqli($host, $username, $password, $database);
 
