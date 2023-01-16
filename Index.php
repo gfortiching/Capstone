@@ -4,7 +4,6 @@ include_once("Connection/Connection.php");
 $con = connection();
 
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -124,7 +123,8 @@ $con = connection();
 
     <section>
         <div class="paragraph first pt-sans">
-            <p><span>E</span>xperience the convenience of monitoring all your important assets with our user-friendly
+            <p><span>E</span>xperience the convenience of monitoring all your important assets with our
+                user-friendly
                 and reliable web service.
             </p>
         </div>
@@ -275,8 +275,10 @@ $con = connection();
                 </div>
             </div>
             <div class="section-title my-5">
-                <p>GoToda was founded last December 2023. Founded by a group of web developers, we have partnered with
-                    some of the major organizations here in the Philippines to come up with a solution to one of their
+                <p>GoToda was founded last December 2023. Founded by a group of web developers, we have partnered
+                    with
+                    some of the major organizations here in the Philippines to come up with a solution to one of
+                    their
                     ongoing problems. Our goal is to serve and support our community while
                     preserving
                     one of the
@@ -293,7 +295,8 @@ $con = connection();
                     </div>
                     <div class="col-lg-6 pt-4 pt-lg-0">
                         <p>
-                            Welcome to our GoToda monitoring service website! We are dedicated to providing reliable and
+                            Welcome to our GoToda monitoring service website! We are dedicated to providing reliable
+                            and
                             accurate
                             monitoring solutions for businesses of all sizes. Our team of experts uses the latest
                             technology
