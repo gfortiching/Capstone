@@ -58,8 +58,8 @@ $con = connection();
                                 session_start();
                             }
 
-                            if (isset($_SESSION["UserLogin"])) {
-                                echo "Hello, " . $_SESSION['UserLogin'] . "!";
+                            if (isset($_SESSION["user_login"])) {
+                                echo "Hello, " . $_SESSION['user_login'] . "!";
                             } else {
                                 echo "Welcome, Guest!";
                             } ?>
@@ -67,10 +67,10 @@ $con = connection();
                     </li>
 
                     <li class="nav-item hover m-0 me-lg-5 mt-3 mt-lg-0">
-                        <?php if (isset($_SESSION['UserLogin'])) { ?>
-                            <a class="hover m-0" href="logout.php">Logout</a>
+                        <?php if (isset($_SESSION['user_login'])) { ?>
+                            <a class="hover m-0" href="./admin/logout.php">Logout</a>
                         <?php } else { ?>
-                            <a class="hover m-0" href="login.php">Login</a>
+                            <a class="hover m-0" href="./admin/login.php">Login</a>
                         <?php } ?>
                     </li>
                 </ul>
@@ -122,7 +122,7 @@ $con = connection();
     </section>
 
     <section>
-        <div class="paragraph first pt-sans">
+        <div class="paragraph first pt-sans" data-aos="fade-up">
             <p><span>E</span>xperience the convenience of monitoring all your important assets with our
                 user-friendly
                 and reliable web service.
@@ -131,7 +131,7 @@ $con = connection();
     </section>
 
     <section>
-        <div class="parallax2" id="services">
+        <div class="parallax2" id="services" data-aos="fade-up">
             <div class="overlay"></div>
             <h2 class="open-sans">Featured Services</h2>
         </div>
@@ -140,11 +140,11 @@ $con = connection();
     <section id="pricing" class="pricing section-bg">
         <div class="container mb-4">
 
-            <div class="section-title">
+            <div class="section-title" data-aos="fade-up">
                 <p class="pt-sans">Check out some of our amazing services!</p>
             </div>
 
-            <div class="row justify-content-center pt-sans">
+            <div class="row justify-content-center pt-sans" data-aos="fade-up">
                 <div class="col-lg-4 col-md-6">
                     <div class="box-services">
                         <img class="services-icon" src='https://cdn-icons-png.flaticon.com/512/5511/5511414.png'
@@ -168,7 +168,7 @@ $con = connection();
                     <div class="box-services">
                         <img class="services-icon" src='https://cdn-icons-png.flaticon.com/512/3408/3408591.png'
                             alt="Book GoToda" />
-                        <h3>Admin Dashboard</h3>
+                        <h3>Dashboard</h3>
                         <h5 class="text-white">Data Monitoring all in our GoToda App! (<em>Exclusive for
                                 GoToda
                                 Admins, Operators and Drivers only.</em>)</h5>
@@ -181,7 +181,7 @@ $con = connection();
     </section>
 
     <section>
-        <div class="parallax2" id="services">
+        <div class="parallax2" id="services" data-aos="fade-up">
             <div class="overlay"></div>
             <h2 class="open-sans">Driver Exclusives</h2>
         </div>
@@ -190,11 +190,11 @@ $con = connection();
     <section id="pricing" class="pricing section-bg">
         <div class="container mb-4 pt-sans">
 
-            <div class="section-title">
+            <div class="section-title" data-aos="fade-up">
                 <p>We provide a variety of benefits for our GoToda Drivers.</p>
             </div>
 
-            <div class="row justify-content-center">
+            <div class="row justify-content-center" data-aos="fade-up">
 
                 <div class="col-lg-4 col-md-6">
                     <div class="box">
@@ -247,7 +247,7 @@ $con = connection();
     </section>
 
     <section>
-        <div class="parallax3" id="about">
+        <div class="parallax3" id="about" data-aos="fade-up">
             <div class="overlay"></div>
             <h2 class="open-sans">About Us</h2>
         </div>
