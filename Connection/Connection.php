@@ -4,7 +4,7 @@ function connection()
     $host = "localhost";
     $username = "root";
     $password = "/S@IM59VXlGnvp]g";
-    $database = "gabriel";
+    $database = "toda_dashboard";
 
     $con = new mysqli($host, $username, $password, $database);
 
